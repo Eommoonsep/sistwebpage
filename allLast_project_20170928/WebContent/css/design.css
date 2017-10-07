@@ -1,0 +1,92 @@
+/* 
+custom font for text
+@import
+	url(Disabled for Preview-in-Browser: http://fonts.googleapis.com/css?family=Nunito)
+	;
+CSS file for fontawesome - an iconfont we will be using. This CSS file imported contains the font-face declaration. More info: http://fortawesome.github.io/Font-Awesome/
+@import
+	url(Disabled for Preview-in-Browser: http://thecodeplayer.com/uploads/fonts/fontawesome/css/font-awesome.min.css);
+
+
+
+Basic reset
+* {
+	margin: 0;
+	padding: 0;
+}
+
+Main Style
+#accordian {
+	background: #EFEFEF;
+	width: 250px;
+	margin: 0 auto;
+	color: black;
+}
+heading styles
+#accordian h3 {
+	font-size: 20px;
+	line-height: 5px;
+	padding: 0 10px;
+	cursor: pointer;
+	background: #EFEFEF;
+	text-align: left;
+	background: linear-gradient(#003040, #002535);
+}
+heading hover effect
+#accordian h3:hover {
+	text-shadow: 0 0 1px rgba(255, 255, 255, 0.7);
+}
+iconfont styles
+#accordian h3 span {
+	margin-right: 10px;
+}
+list items
+#accordian li {
+	list-style-type: none;
+}
+links
+#accordian ul ul li a {
+	color: black;
+	text-decoration: none;
+	line-height: 27px;
+	display: block;
+	padding: 0 15px;
+	-webkit-transition: all 0.15s;
+	-moz-transition: all 0.15s;
+	-o-transition: all 0.15s;
+	-ms-transition: all 0.15s;
+	transition: all 0.15s;
+}
+hover effect on links
+#accordian ul ul li a:hover {
+	background: #cccccc;
+	border-left: 5px solid #09c;
+}
+Lets hide the non active LIs by default
+#accordian ul ul {
+	display: none;
+}
+
+#accordian li.active ul {
+	display: block;
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.row.content {
+	height: 920px
+}
+
+.sidenav {
+	padding-top: 20px;
+	background-color: #f1f1f1;
+	height: 100%;
+}
+
+a, a:hover, a:active, a:link {
+	color: black;
+	text-decoration: none;
+} */
